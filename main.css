@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Fontes Início*/
+
+header {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*Fontes Fim*/
+/**/
+header {
+    background-image: url(https://images.ctfassets.net/rporu91m20dc/33LpdvqfUp3OPhVElHUCao/96c13ecc5a8c14467f158e95e074dd41/DE_Logo_HERO_1920x870.png);
+    background-size: 100% 110%;
+    padding: 70px;
+}
+
+header nav li {
+    justify-content: space-between;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
