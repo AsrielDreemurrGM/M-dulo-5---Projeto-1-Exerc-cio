@@ -19,8 +19,8 @@ body {
 /*Config. Cabeçalho*/
 header {
     background-image: url(https://images.ctfassets.net/rporu91m20dc/33LpdvqfUp3OPhVElHUCao/96c13ecc5a8c14467f158e95e074dd41/DE_Logo_HERO_1920x870.png);
-    background-size: 100% 110%;
-    color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     padding: 60px;
 }
 
@@ -35,7 +35,22 @@ header nav li a {
     text-decoration: none;
 }
 
+/*Fim Config. Cabeçalho*/
+
 .container {
     display: flex;
     justify-content: right;
+}
+
+section {
+    background-image: url(https://images5.alphacoders.com/130/1303642.jpeg);
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    padding: 100%;
+}
+
+footer {
+    background-color: #000000;
+    color: #ecf0f1;
+    padding: 16px 0;
 }
