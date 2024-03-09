@@ -16,18 +16,26 @@ body {
 }
 
 /*Fontes Fim*/
-/**/
+/*Config. Cabeçalho*/
 header {
     background-image: url(https://images.ctfassets.net/rporu91m20dc/33LpdvqfUp3OPhVElHUCao/96c13ecc5a8c14467f158e95e074dd41/DE_Logo_HERO_1920x870.png);
     background-size: 100% 110%;
-    padding: 70px;
+    color: white;
+    padding: 60px;
 }
 
 header nav li {
-    justify-content: space-between;
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
 }
 
 header nav li a {
-    color: #ecf0f1;
+    color: white;
     text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
 }
