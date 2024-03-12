@@ -21,7 +21,7 @@ header {
     background-image: url(https://images.ctfassets.net/rporu91m20dc/33LpdvqfUp3OPhVElHUCao/96c13ecc5a8c14467f158e95e074dd41/DE_Logo_HERO_1920x870.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 60px;
+    padding: 5%;
 }
 
 header nav li {
@@ -44,9 +44,9 @@ header nav li a {
 
 section {
     background-image: url(https://images5.alphacoders.com/130/1303642.jpeg);
-    background-size: 50% auto;
     background-repeat: no-repeat;
-    padding: 100%;
+    padding: 40% 100%;
+    background-size: 50% 100%;
 }
 
 footer {
