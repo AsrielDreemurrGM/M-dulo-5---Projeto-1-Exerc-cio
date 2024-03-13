@@ -19,6 +19,8 @@ body {
 /*Fontes Fim*/
 /*Config. Cabeçalho*/
 header {
+    display: flex;
+    justify-content: right;
     background-image: url(https://images.ctfassets.net/rporu91m20dc/33LpdvqfUp3OPhVElHUCao/96c13ecc5a8c14467f158e95e074dd41/DE_Logo_HERO_1920x870.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -37,11 +39,7 @@ header nav li a {
 }
 
 /*Fim Config. Cabeçalho*/
-
-.container {
-    display: flex;
-    justify-content: right;
-}
+/*Config. Principal*/
 
 section {
     display: flex;
@@ -51,10 +49,13 @@ section {
     padding: 300px;
 }
 
+
+
+/*Fim Config. Principal*/
 /*Início Rodapé*/
 
-footer,
-footer .container {
+footer {
+    display: flex;
     justify-content: center;
     background-color: #000000;
     color: white;
