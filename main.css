@@ -53,8 +53,10 @@ section {
 
 /*Início Rodapé*/
 
-footer {
+footer,
+footer .container {
+    justify-content: center;
     background-color: #000000;
-    color: #ecf0f1;
+    color: white;
     padding: 16px 0;
 }
