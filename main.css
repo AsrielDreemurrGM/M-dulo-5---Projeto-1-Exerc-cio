@@ -6,7 +6,8 @@
 
 /*Fontes Início*/
 
-header {
+header,
+section h2 {
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
 }
@@ -43,11 +44,14 @@ header nav li a {
 }
 
 section {
+    display: flex;
     background-image: url(https://images5.alphacoders.com/130/1303642.jpeg);
     background-repeat: no-repeat;
-    padding: 40% 100%;
-    background-size: 50% 100%;
+    background-size: cover;
+    padding: 300px;
 }
+
+/*Início Rodapé*/
 
 footer {
     background-color: #000000;
