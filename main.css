@@ -21,8 +21,7 @@ header nav li a {
     color: rgb(255, 255, 255);
 }
 
-/*Fontes Fim*/
-/*Config. Cabeçalho*/
+/*Fontes Fim - Início Cabeçalho*/
 header {
     display: flex;
     justify-content: right;
@@ -42,8 +41,7 @@ header nav li a {
     text-decoration: none;
 }
 
-/*Fim Config. Cabeçalho*/
-/*Config. Principal*/
+/*Fim Cabeçalho - Início Seção Sobre*/
 
 section {
     display: flex;
@@ -75,8 +73,40 @@ section {
     width: 70%;
 }
 
-/*Fim Config. Principal*/
-/*Início Rodapé*/
+/*Início Formulário*/
+
+.rating-form {
+    display: block;
+    position: absolute;
+    left: 70%;
+    top: 35%;
+    text-align: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+input:focus, textarea:focus {
+    outline-color: #8b0000;
+}
+
+form button:hover {
+    background-color: #8b0000;
+}
+
+/*Fim Formulário*/
+/*Fim Seção Sobre - Início Rodapé*/
 
 footer {
     display: flex;
@@ -85,3 +115,4 @@ footer {
     color: white;
     padding: 16px 0;
 }
+/*Fim Rodapé*/
