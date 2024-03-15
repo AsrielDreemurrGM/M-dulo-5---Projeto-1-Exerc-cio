@@ -6,7 +6,7 @@
 
 /*Fontes Início*/
 
-section h2,
+section h1,
 .text h3 {
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
@@ -61,9 +61,14 @@ section {
     text-align: left;
 }
 
-.text h2,
+.text h1,
+.text h3,
+.text p {
+    padding-bottom: 10px;
+}
+
 .text h3 {
-    padding-bottom: 5px;
+    font-size: x-large;
 }
 
 .text p {
