@@ -92,6 +92,7 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+    opacity: 95%;
 }
 
 form textarea {
